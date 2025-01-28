@@ -5,7 +5,8 @@ import './App.css'
 import { Typography } from '@mui/material'
 import { Button } from '@mui/material'
 import { Avatar } from '@mui/material'
-import { blueGrey, purple, yellow } from '@mui/material/colors'
+import { yellow } from '@mui/material/colors' //blueGrey, purple, 
+import { TextField } from '@mui/material'
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
       src="src/assets/windchime.jpeg" 
       sx={{ width: 80, height: 80 }}> </Avatar>
 
-
+    <TextField variant='filled' label="fill in:">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, rerum expedita, facere veniam vel voluptates adipisci autem doloremque tempora velit itaque. Ab nulla doloremque beatae consequuntur hic totam, quam velit.</TextField>
     </>
   )
 }
