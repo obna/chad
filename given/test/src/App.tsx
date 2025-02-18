@@ -18,7 +18,7 @@ function App() {
     <Typography variant="subtitle2">you there</Typography>
     <Typography variant="subtitle1">Hi sunshine</Typography>    
     <Typography variant="body1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem eligendi quos unde nulla, alias commodi enim blanditiis, magni neque accusamus ipsam ratione quaerat repudiandae veniam eveniet consequatur voluptates tenetur reiciendis!</Typography>
-    <Button variant="outlined">press</Button>
+    <Button variant="outlined" sx={{ width: '10%', aspectRatio:1/1 }} >press</Button>
     <Avatar sx={{ bgcolor: yellow[500] }}>OK</Avatar>
     <Avatar alt="Spelman College" 
       src="src/assets/windchime.jpeg" 
